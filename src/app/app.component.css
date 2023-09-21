@@ -1,0 +1,95 @@
+.navbar {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .list-group-item {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .btn-fab {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .max-progress{
+    float: right;
+  }
+  .rounded-corner{
+    border-radius: 20px 20px 20px 20px;
+  }
+  .space{
+    margin-right: 10px;
+  }
+  .list-unstyled li {
+    position: relative;
+    padding-bottom: 8px;
+  }
+  
+  .list-unstyled li:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .list-unstyled li:last-child:before {
+    display: none;
+  }
+  .list-number{
+    float: right;
+  }
+  .img{
+    width: 20px;
+  }
+  .space{
+    margin-left: 5%;
+  }
+.filter-text{
+  font-weight: 700;
+}
+.filter-head{
+  font-weight: 100;
+}
+.first-no{
+  color: red;
+}
+.second-no{
+  color: orange;
+}
+.float-right{
+  margin-left: 15px;
+}
+.card-space{
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.ticket-top{
+  margin-top: -20px;
+}
+#barChart{
+  height: 140px !important;
+}
+#pieChart{
+  width: auto !important;
+  height: 100px !important;
+}
+.otherFil{
+  padding: 9px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: #dee2e6 1px solid;
+}
