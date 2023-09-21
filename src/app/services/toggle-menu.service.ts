@@ -6,7 +6,7 @@ import { Observable, pipe, map } from 'rxjs';
   providedIn: 'root'
 })
 export class ToggleMenuService {
-  private url: string = 'http://localhost:5050/toggleMenu';
+  private url: string = 'https://dashboard-backend-l1p0.onrender.com/toggleMenu';
   constructor(private httpClient: HttpClient) { }
   
   get(): Observable<any> {

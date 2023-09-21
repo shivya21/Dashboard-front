@@ -6,7 +6,7 @@ import { Observable, pipe, map } from 'rxjs';
   providedIn: 'root'
 })
 export class CardEightService {
-  private url: string = 'http://localhost:5050/cardEight';
+  private url: string = 'https://dashboard-backend-l1p0.onrender.com/cardEight';
   constructor(private httpClient: HttpClient) { }
   
   get(): Observable<any> {

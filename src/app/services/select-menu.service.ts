@@ -6,7 +6,7 @@ import { Observable, pipe, map } from 'rxjs';
   providedIn: 'root'
 })
 export class SelectMenuService {
-  private url: string = 'http://localhost:5050/selectMenu';
+  private url: string = 'https://dashboard-backend-l1p0.onrender.com/selectMenu';
   constructor(private httpClient: HttpClient) { }
   
   get(): Observable<any> {
